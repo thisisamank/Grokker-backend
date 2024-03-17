@@ -5,7 +5,7 @@ To initialize and run this project locally, you can follow these steps:
 Clone the project repository from GitHub:
 
 ```shell
-git clone https://github.com/username/repo.git
+git clone https://github.com/thisisamank/Grokker-backend
 ```
 
 Install the required dependencies using pip:
@@ -29,7 +29,7 @@ Access the API endpoints using a web browser or an API testing tool like Postman
 
 - To get a grok pattern for a plain text log line, send a POST request to `http://localhost:8000/grok` with the log line in the request body as JSON. For example:
 
-```json
+```http
 POST /grok
 Content-Type: application/json
 
